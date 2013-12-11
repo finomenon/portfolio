@@ -1,0 +1,64 @@
+.project-grid {
+	position: relative;
+	height: auto;
+	margin: $em12 0 0 0;
+
+	@media all and (min-width: $tablet-bp) {
+		margin: 1em 0 0 0;
+	}
+	@media all and (min-width: $desktop-bp) {
+		margin: (1em + $em6) 0 0 0;
+	}
+
+	a {
+		display: block;
+
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	.wrap-grid {
+		max-width: $max-grid-w;
+		width: 100% - $margin;
+		margin: 0 ($margin/2);
+	}
+
+	.col {
+		width: 48.8%;
+		float: left;
+		margin: 0 ($margin/2) $margin;
+		display: block;
+		position: relative;
+		background: $light-gray;
+		@media all and (min-width: $tablet-bp) {
+			width: 32.13333333333333%;
+		}
+		@media all and (min-width: $desktop-bp) {
+			width: 23.8%;
+		}
+		img {
+			border-bottom-left-radius:$em12;
+			border-bottom-right-radius:$em12;
+		}
+	}
+
+	.project-name {
+		font-size: $em11;
+		color: white;
+		padding: $em12 1em;
+		background: black;
+		text-align: left;
+		white-space:nowrap;
+
+		border-bottom: 1px solid $light-gray;
+		border-top-left-radius:$em12;
+		border-top-right-radius:$em12;
+
+		@media all and (min-width: $desktop-bp) {
+			font-size: $em12;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+    "ProjectName": "Converse.com Redesign",
+    "Links": [{
+        "Label": "Live Site",
+        "Href": "http://www.converse.com"
+    }],
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/converse_mobile0.jpg",
+        "Description": "Converse.com is an adaptive responsive eCommerce website. Our tech partners implemented the live site using our high-fidelity, interactive prototype as a behavioral and visual guideline. I was the Tech team lead for this project. I managed source control, task management, was the scrum master and helped implemented a process that included the UX, Visual and Programming team members working together throughout the entire build."
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign1.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign2.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign3.jpg",
+        "Description": "<br/>Register/Login"
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign8.jpg",
+        "Description": "<br/>Navigation"
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign6.jpg",
+        "Description": "<br/>Search/Search assist"
+    },{
+        "Image": "/images/projects/fs/lrg/converse_mobile1.jpg",
+        "Description": "<br/>Gridwall pages"
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign7.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign9.jpg",
+        "Description": "<br/>PDP"
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign4.jpg",
+        "Description": "<br/>Cart"
+    },{
+        "Image": "/images/projects/fs/lrg/converse_redesign5.jpg",
+        "Description": "<br/>Checkout"
+    }]
+}

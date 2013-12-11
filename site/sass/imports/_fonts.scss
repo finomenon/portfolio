@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'FinomenonIcons';
+	src:url('../fonts/FinomenonIcons.eot');
+	src:url('../fonts/FinomenonIcons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FinomenonIcons.woff') format('woff'),
+		url('../fonts/FinomenonIcons.ttf') format('truetype'),
+		url('../fonts/FinomenonIcons.svg#FinomenonIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'FinomenonIcons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-facebook, .icon-twitter, .icon-arrow-left, .icon-linkedin, .icon-mail, .icon-box-add, .icon-new-tab {
+	font-family: 'FinomenonIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-facebook:before {
+	content: "\66";
+}
+.icon-twitter:before {
+	content: "\74";
+}
+.icon-arrow-left:before {
+	content: "\61";
+}
+.icon-linkedin:before {
+	content: "\21";
+}
+.icon-mail:before {
+	content: "\65";
+}
+.icon-box-add:before {
+	content: "\22";
+}
+.icon-new-tab:before {
+	content: "\23";
+}

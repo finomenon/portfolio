@@ -1,0 +1,8 @@
+@mixin linear-gradient($lc, $rc) {
+	background-image: -ms-linear-gradient(right, $rc 50%, $lc 50%);
+	background-image: -moz-linear-gradient(right, $rc 50%, $lc 50%);
+	background-image: -o-linear-gradient(right, $rc 50%, $lc 50%);
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(0.5, $rc), color-stop(0.5, $lc));
+	background-image: -webkit-linear-gradient(right, $rc 50%, $lc 50%);
+	background-image: linear-gradient(to left, $rc 50%, $lc 50%);
+}

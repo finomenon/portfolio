@@ -1,0 +1,129 @@
+/* HTML Elements */
+body, html {
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	background: $light-gray;
+	margin: 0;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	div {
+		display: block;
+	}
+	img, video {
+		border: 0;
+		display: block;
+	}
+}
+
+div, a, p, ul, li, h1, h2, h3, h4, h5, h6, hr, span, img, form, input {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: $med-light-gray;
+	font-size: $em12;
+	text-decoration: none;
+}
+
+ul
+{
+	list-style: none;
+    list-style-type: none;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: $em13;
+	text-transform: uppercase;
+}
+
+hr {
+    border: 0;
+    height: $em1;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+/* Shared Styles */
+.main {
+	width: 100%;
+}
+
+.wrap {
+	max-width: $max-w;
+	width: 100% - ($margin*2);
+	margin: 0 $margin;
+}
+
+.stitched {
+	color: white;
+	border: $em1 solid $med-gray;
+	border-radius: $em10;
+   	-moz-box-shadow: 0 0 0 $em4 $light-gray, $em2 $em1 $em6 $em4 rgba(10, 10, 0, 0.5);
+	-webkit-box-shadow: 0 0 0 $em4 $light-gray, $em2 $em1 $em6 $em4 rgba(10, 10, 0, 0.5);
+	box-shadow: 0 0 0 $em4 $light-gray, $em2 $em1 $em6 $em4 rgba(10, 10, 0, 0.5);
+}
+
+.white {
+	color: white !important;
+}
+
+.effect6
+{
+  	position:relative;
+
+}
+.effect6:before, .effect6:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 12px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 12px rgba(0,0,0,0.4);
+    box-shadow:0 0 12px rgba(0,0,0,0.4);
+    top:50%;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+
+/* Utilities */
+.display-none {
+	display: none !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.fill {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.center {
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+}
+
+.middle-wrap {
+	display: table;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}

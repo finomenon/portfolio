@@ -1,0 +1,432 @@
+/* Colors */
+/* EM CONVERSIOINS */
+/* keep things pixel clean */
+/* UI */
+/* Breakpoints */
+/*20em; /* 320px based on 16px default */
+/*30em; /* 480px based on 16px default */
+/*48em; /* 768px (iPad) based on 16px default */
+/* Layout Specs */
+@font-face {
+  font-family: 'FinomenonIcons';
+  src: url("../fonts/FinomenonIcons.eot");
+  src: url("../fonts/FinomenonIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/FinomenonIcons.woff") format("woff"), url("../fonts/FinomenonIcons.ttf") format("truetype"), url("../fonts/FinomenonIcons.svg#FinomenonIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 13, ../sass/imports/_fonts.scss */
+[data-icon]:before {
+  font-family: 'FinomenonIcons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+/* line 31, ../sass/imports/_fonts.scss */
+.icon-facebook, .icon-twitter, .icon-arrow-left, .icon-linkedin, .icon-mail, .icon-box-add, .icon-new-tab {
+  font-family: 'FinomenonIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 41, ../sass/imports/_fonts.scss */
+.icon-facebook:before {
+  content: "\66";
+}
+
+/* line 44, ../sass/imports/_fonts.scss */
+.icon-twitter:before {
+  content: "\74";
+}
+
+/* line 47, ../sass/imports/_fonts.scss */
+.icon-arrow-left:before {
+  content: "\61";
+}
+
+/* line 50, ../sass/imports/_fonts.scss */
+.icon-linkedin:before {
+  content: "\21";
+}
+
+/* line 53, ../sass/imports/_fonts.scss */
+.icon-mail:before {
+  content: "\65";
+}
+
+/* line 56, ../sass/imports/_fonts.scss */
+.icon-box-add:before {
+  content: "\22";
+}
+
+/* line 59, ../sass/imports/_fonts.scss */
+.icon-new-tab:before {
+  content: "\23";
+}
+
+/* HTML Elements */
+/* line 2, ../sass/imports/_global.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 9, ../sass/imports/_global.scss */
+body {
+  background: #ebebeb;
+  margin: 0;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* line 14, ../sass/imports/_global.scss */
+body div {
+  display: block;
+}
+/* line 17, ../sass/imports/_global.scss */
+body img, body video {
+  border: 0;
+  display: block;
+}
+
+/* line 23, ../sass/imports/_global.scss */
+div, a, p, ul, li, h1, h2, h3, h4, h5, h6, hr, span, img, form, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 28, ../sass/imports/_global.scss */
+a {
+  color: #cdcdcd;
+  font-size: 0.75em;
+  text-decoration: none;
+}
+
+/* line 35, ../sass/imports/_global.scss */
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+/* line 40, ../sass/imports/_global.scss */
+h2 {
+  font-weight: bold;
+  font-size: 0.8125em;
+  text-transform: uppercase;
+}
+
+/* line 46, ../sass/imports/_global.scss */
+hr {
+  border: 0;
+  height: 0.0625em;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #cccccc, #333333, #cccccc);
+  background-image: -moz-linear-gradient(left, #cccccc, #333333, #cccccc);
+  background-image: -ms-linear-gradient(left, #cccccc, #333333, #cccccc);
+  background-image: -o-linear-gradient(left, #cccccc, #333333, #cccccc);
+}
+
+/* Shared Styles */
+/* line 57, ../sass/imports/_global.scss */
+.main {
+  width: 100%;
+}
+
+/* line 61, ../sass/imports/_global.scss */
+.wrap {
+  max-width: 67.5em;
+  width: 97.6%;
+  margin: 0 1.2%;
+}
+
+/* line 67, ../sass/imports/_global.scss */
+.stitched {
+  color: white;
+  border: 0.0625em solid #999999;
+  border-radius: 0.625em;
+  -moz-box-shadow: 0 0 0 0.25em #ebebeb, 0.125em 0.0625em 0.375em 0.25em rgba(10, 10, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25em #ebebeb, 0.125em 0.0625em 0.375em 0.25em rgba(10, 10, 0, 0.5);
+  box-shadow: 0 0 0 0.25em #ebebeb, 0.125em 0.0625em 0.375em 0.25em rgba(10, 10, 0, 0.5);
+}
+
+/* line 76, ../sass/imports/_global.scss */
+.white {
+  color: white !important;
+}
+
+/* line 81, ../sass/imports/_global.scss */
+.effect6 {
+  position: relative;
+}
+
+/* line 86, ../sass/imports/_global.scss */
+.effect6:before, .effect6:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  top: 50%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Utilities */
+/* line 100, ../sass/imports/_global.scss */
+.display-none {
+  display: none !important;
+}
+
+/* line 104, ../sass/imports/_global.scss */
+.clear {
+  clear: both;
+}
+
+/* line 108, ../sass/imports/_global.scss */
+.fill {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 114, ../sass/imports/_global.scss */
+.center {
+  display: inline-block;
+  *display: inline;
+  vertical-align: middle;
+}
+
+/* line 120, ../sass/imports/_global.scss */
+.middle-wrap {
+  display: table;
+}
+
+/* line 124, ../sass/imports/_global.scss */
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/imports/_header.scss */
+.header {
+  background: url("/images/banner/lrg/bg.jpg") 0 0 repeat scroll;
+  background-position: center top;
+}
+/* line 5, ../sass/imports/_header.scss */
+.header .logo {
+  background: url("/images/logo/eric_logo.png") 0 0 no-repeat scroll;
+  background-color: #cdcdcd;
+  width: 7.125em;
+  height: 7.1875em;
+  margin: 0 0 0 0.5625em;
+}
+/* line 13, ../sass/imports/_header.scss */
+.header ul {
+  padding: 0 0 0 1em;
+  text-align: left;
+}
+/* line 16, ../sass/imports/_header.scss */
+.header ul a {
+  line-height: 2.6875em;
+}
+/* line 21, ../sass/imports/_header.scss */
+.header .icn {
+  padding: 0 0.25em 0 0;
+}
+/* line 25, ../sass/imports/_header.scss */
+.header .icn-contact {
+  font-size: 2em;
+  vertical-align: middle;
+}
+/* line 30, ../sass/imports/_header.scss */
+.header .label {
+  display: none;
+}
+@media all and (min-width: 32em) {
+  /* line 30, ../sass/imports/_header.scss */
+  .header .label {
+    display: inline;
+  }
+}
+
+/* line 38, ../sass/imports/_header.scss */
+.home-header {
+  height: 7.5em;
+  padding: 1.375em 0 2em;
+}
+
+/* line 43, ../sass/imports/_header.scss */
+.project-header {
+  padding: 0.625em 0;
+}
+/* line 45, ../sass/imports/_header.scss */
+.project-header .back-icn {
+  font-size: 1.25em;
+  vertical-align: text-bottom;
+}
+
+/* line 3, ../sass/imports/_nav.scss */
+.nav .title,
+.nav .links {
+  margin: 0.625em 0;
+}
+@media all and (min-width: 32em) {
+  /* line 3, ../sass/imports/_nav.scss */
+  .nav .title,
+  .nav .links {
+    margin: 0.875em 0;
+  }
+}
+@media all and (min-width: 50em) {
+  /* line 3, ../sass/imports/_nav.scss */
+  .nav .title,
+  .nav .links {
+    margin: 1.125em 0;
+  }
+}
+/* line 13, ../sass/imports/_nav.scss */
+.nav .links {
+  width: 100%;
+}
+/* line 17, ../sass/imports/_nav.scss */
+.nav .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 22, ../sass/imports/_nav.scss */
+.nav li {
+  display: inline-block;
+  *display: inline;
+  padding: 0 0.625em;
+}
+/* line 28, ../sass/imports/_nav.scss */
+.nav a {
+  color: black;
+}
+/* line 32, ../sass/imports/_nav.scss */
+.nav .icn {
+  font-size: 1.375em;
+  vertical-align: text-bottom;
+  padding: 0 0.25em 0 0;
+  line-height: 0.9;
+}
+@media all and (min-width: 32em) {
+  /* line 32, ../sass/imports/_nav.scss */
+  .nav .icn {
+    font-size: 1.625em;
+  }
+}
+/* line 42, ../sass/imports/_nav.scss */
+.nav .label {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 0;
+  /*text-transform: capitalize;*/
+}
+@media all and (min-width: 32em) {
+  /* line 42, ../sass/imports/_nav.scss */
+  .nav .label {
+    font-size: 1.25em;
+  }
+}
+
+/* line 1, ../sass/imports/_grid.scss */
+.project-grid {
+  position: relative;
+  height: auto;
+  margin: 0.75em 0 0 0;
+}
+@media all and (min-width: 32em) {
+  /* line 1, ../sass/imports/_grid.scss */
+  .project-grid {
+    margin: 1em 0 0 0;
+  }
+}
+@media all and (min-width: 50em) {
+  /* line 1, ../sass/imports/_grid.scss */
+  .project-grid {
+    margin: 1.375em 0 0 0;
+  }
+}
+/* line 13, ../sass/imports/_grid.scss */
+.project-grid a {
+  display: block;
+}
+/* line 18, ../sass/imports/_grid.scss */
+.project-grid img {
+  width: 100%;
+  height: auto;
+}
+/* line 23, ../sass/imports/_grid.scss */
+.project-grid .wrap-grid {
+  max-width: 68.31em;
+  width: 98.8%;
+  margin: 0 0.6%;
+}
+/* line 29, ../sass/imports/_grid.scss */
+.project-grid .col {
+  width: 48.8%;
+  float: left;
+  margin: 0 0.6% 1.2%;
+  display: block;
+  position: relative;
+  background: #ebebeb;
+}
+@media all and (min-width: 32em) {
+  /* line 29, ../sass/imports/_grid.scss */
+  .project-grid .col {
+    width: 32.13333333333333%;
+  }
+}
+@media all and (min-width: 50em) {
+  /* line 29, ../sass/imports/_grid.scss */
+  .project-grid .col {
+    width: 23.8%;
+  }
+}
+/* line 42, ../sass/imports/_grid.scss */
+.project-grid .col img {
+  border-bottom-left-radius: 0.75em;
+  border-bottom-right-radius: 0.75em;
+}
+/* line 48, ../sass/imports/_grid.scss */
+.project-grid .project-name {
+  font-size: 0.6875em;
+  color: white;
+  padding: 0.75em 1em;
+  background: black;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid #ebebeb;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+@media all and (min-width: 50em) {
+  /* line 48, ../sass/imports/_grid.scss */
+  .project-grid .project-name {
+    font-size: 0.75em;
+  }
+}

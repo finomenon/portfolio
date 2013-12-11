@@ -1,0 +1,14 @@
+{
+    "ProjectName": "Prototype",
+    "Links": [{
+        "Label": "Live Demo",
+        "Href": "http://finomenon.com/converse/demos/mod_con/"
+    }],
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/prototype1.jpg",
+        "Description": "This is a prototype of color palette detection that automates a sneaker design. You can upload a photo to design a shoe. We used this demo to pitch a mobile version that would use the device camera."
+    },{
+        "Image": "/images/projects/fs/lrg/prototype2.jpg",
+        "Description": ""
+    }]
+}

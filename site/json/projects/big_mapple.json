@@ -1,0 +1,20 @@
+{
+    "ProjectName": "Big Mapple",
+    "Links": [{
+        "Label": "Live Site (Flash)",
+        "Href": "http://bigmapple.com/"
+    }],
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/big_mapple1.jpg",
+        "Description": "Big Mapple was an entry for the NYC Big Apps competition in 2009. The site centers around its main feature, a map that aims to assosiate New York City events with activity from social networks. Currently, the map pulls feeds from Twitter and photos from Flickr."
+    },{
+        "Image": "/images/projects/fs/lrg/big_mapple2.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/big_mapple3.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/big_mapple4.jpg",
+        "Description": ""
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "ProjectName": "BlogHer",
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/blogher0.jpg",
+        "Description": "BlogHer is a data visualization of tweets. It manipulates the Twitter feed text into sin waves to mimic the look of vines. As the system receives more tweets, the vines animate as if they were growing. Ultimately, this software was part of a Walmart booth installation at the BlogHer 2010 conference."
+    },{
+        "Image": "/images/projects/fs/lrg/blogher1.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/blogher2.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/blogher3.jpg",
+        "Description": "<br/>Custom Tool: Text-vine pattern generator."
+    }]
+}

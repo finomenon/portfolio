@@ -1,0 +1,10 @@
+{
+    "ProjectName": "Plugged In",
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/plugged_in1.jpg",
+        "Description": "Plugged In is a responsive web app that taps into your social networks, or lets you search by artist/venue name to find SXSW bands that are playing near your. The ultimate goal is to have this work for any type of large event-based festival."
+    },{
+        "Image": "/images/projects/fs/lrg/plugged_in.jpg",
+        "Description": ""
+    }]
+}

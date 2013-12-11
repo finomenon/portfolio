@@ -1,0 +1,20 @@
+{
+    "ProjectName": "Teaching House Testimonial Map",
+    "Links": [{
+        "Label": "Live Site (Flash)",
+        "Href": "http://www.teachinghouse.com/testimonials"
+    }],
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/teaching_house1.jpg",
+        "Description": "This is a data-driven, interactive map using the Papervision3D library to render card flipping and shuffling transitions."
+    },{
+        "Image": "/images/projects/fs/lrg/teaching_house2.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/teaching_house3.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/teaching_house4.jpg",
+        "Description": ""
+    }]
+}

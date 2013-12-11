@@ -1,0 +1,31 @@
+{
+    "ProjectName": "Old Converse.com",
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/old_converse1.jpg",
+        "Description": "The old Converse site was an All-Flash website with an HTML fallback that was originally meant for SEO purposes, but eventually graduated to a public-facing mobile version. This site has not so sadly been retired. However, during the year+ that I worked on the project (as both a Tech Team Lead and Lead Developer) there were some notable features/enhancements made to the site. I've highlighted some of them below.<br/><br/>Campaign Homepage Tout. Video player + server-driven product expiration countodown."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse8.jpg",
+        "Description": "<br/>The next two slides show an HTML/mobile version of Converse.com. The inline PDP was concepted and developed by our team, and ended up bringing this page's Click to Purchase rates up to the highest of any page on the site, including the main Flash site. We were not budgeted to build it responsive/adaptive, though it does work on mobile devices."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse9.jpg",
+        "Description": "<br/>Inline PDP"
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse2.jpg",
+        "Description": "<br/>Sneaker Customizer: Custom background for campaign products. Batman Arkham City."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse3.jpg",
+        "Description": "<br/>Sneaker Customizer: Custom background for campaign products. Graphic Editions."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse4.jpg",
+        "Description": "<br/>To mitigate the dificulty users had understanding Chuck Taylor size charts, we built a size calculator widget."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse5.jpg",
+        "Description": "<br/>Size Calculator Widget: Calculation results."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse6.jpg",
+        "Description": "<br/>Sneaker Customizer: Save an image of your design. Developed custom serverside script which recieves raw data from Flash to composite Sneaker image and Background image."
+    },{
+        "Image": "/images/projects/fs/lrg/old_converse7.jpg",
+        "Description": "<br/>Faciticed Navigation/ Gridwall Filters Revamp"
+    }]
+}

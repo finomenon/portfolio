@@ -1,0 +1,30 @@
+{
+    "ProjectName": "Nike Team Sports",
+    "Links": [{
+        "Label": "Live Site (Flash)",
+        "Href": "http://niketeam.nike.com/US/en_US/?l=shop,pdp,ctr-vis&uid=UD84101275"
+    },
+    {
+        "Label": "See The Video",
+        "Href": "http://www.youtube.com/watch?v=NYOHKm6VIBI&feature=youtu.be&t=1m15s"
+    }],
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/team_sports1.jpg",
+        "Description": "Customize an entire uniform. I was a Flash developer on this project and worked on a few different features. The customizer uses the Embodee platform which dynamically drapes different fabrics on 3D models in a highly realistic way (see video above)."
+    },{
+        "Image": "/images/projects/fs/lrg/team_sports2.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/team_sports3.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/team_sports4.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/team_sports5.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/team_sports6.jpg",
+        "Description": ""
+    }]
+}

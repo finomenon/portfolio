@@ -1,0 +1,156 @@
+@import "imports/_vars.scss";
+
+.share {
+	a {
+		font-size: (1em + $em8) !important;
+	}
+	span {
+		font-size: $em11 !important;
+		padding: $em8 $em12 0 !important;
+		display: inline !important;
+	}
+	.pd-social-btns {
+		span {
+			font-size: 1.0em !important;
+			padding: 0.25em 0.25em !important;
+		}
+	}
+}
+
+.banner {
+   background-color: white !important;
+}
+
+.nav {
+	margin: (1em + $em8) 0 0 !important;
+
+	.filters {
+
+		.toggle {
+	   		-webkit-border-radius: 0 !important;
+			-moz-border-radius: 0 !important;
+			border-radius: 0 !important;
+			border-left: $em1 solid $med-light-gray !important;
+		}
+
+		.last-child {
+			border-right: $em1 solid $med-light-gray !important;
+		}
+
+		.title {
+			font-size: 0.8125em !important;
+			padding: $em14 (1em + $em6) 0 0 !important;
+		}
+
+		.label {
+		    font-size: $em15 !important;
+
+		    a {
+		    	padding: 1.35em 0 1.65em $em11 !important;
+		    }
+		}
+	}
+
+	.search-date {
+		.tooltip-arrow {
+			margin: -($tt-tri-w/3) (1em + $em4) 0 !important;
+		}
+	}
+	.search-country {
+		.tooltip-arrow {
+			margin: -($tt-tri-w/3) (2em + $em4) 0 !important;
+		}
+	}
+	.search-name {
+		.tooltip-arrow {
+			margin: -($tt-tri-w/3) (1em + $em5) 0 !important;
+		}
+	}
+
+	.tool-tip {
+		width: auto !important;
+		left: auto !important;
+	}
+
+	.date-tooltip {
+		margin-left: -(7em + $em10) !important;
+	}
+
+	.country-tooltip {
+		margin-left: -(6em + $em1) !important;
+	}
+
+	.name-tooltip {
+		margin-left: -(8em + $em3) !important;
+
+		.name-form {
+			width: 21em !important;
+		}
+	}
+}
+
+.ui-datepicker {
+	width: $picker-w !important;
+}
+.ui-widget-content {
+	width: $picker-w !important;
+}
+
+.select {
+	width: $select-w !important;
+	li {
+		width: $select-w - (3em) !important;
+	}
+}
+
+.photo-grid {
+	margin: (1em + $em6) 0 0 0 !important;
+	.col {
+		width: 18.8% !important;
+	}
+
+	.photo-name {
+		font-size: $em12 !important;
+		background-color: black !important;
+		filter: alpha(opacity=70);
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	}
+}
+
+.overlay {
+	background-color: black !important;
+	filter: alpha(opacity=80);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.vid-overlay {
+	.vid-container {
+		div {
+			margin-top: 0.1em !important;
+		}
+		video {
+			padding: 0 !important;
+		}
+	}
+}
+
+.photo-details {
+	.pd-body {
+		width: $vid-med-w !important;
+		height: $vid-med-h !important;
+	}
+
+	.pd-main {
+		width: $vid-med-w !important;
+	}
+
+	.pd-flag {
+		img {
+			width: (2em + $em2) !important;
+		}
+	}
+
+	.pd-name {
+		font-size: (1em + $em4) !important;
+	}
+}

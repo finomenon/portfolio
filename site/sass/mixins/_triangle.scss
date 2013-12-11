@@ -1,0 +1,9 @@
+/* CSS Triangle (http://css-tricks.com/snippets/css/css-triangle/) */
+/* Usage: @include cssTriangle(10px, 1px, #ccc, right, #000); */
+@mixin cssTriangle($w, $h, $color) {
+	width: 0; 
+	height: 0; 
+	border-left: $w solid transparent;
+	border-right: $w solid transparent;
+	border-bottom: $h solid $color;
+}

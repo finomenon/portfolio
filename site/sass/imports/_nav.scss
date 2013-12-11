@@ -1,0 +1,52 @@
+.nav {
+	.title,
+	.links {
+		margin: $em10 0;
+		@media all and (min-width: $tablet-bp) {
+			margin: $em14 0;
+		}
+		@media all and (min-width: $desktop-bp) {
+			margin: (1em + $em2) 0;
+		}
+	}
+
+	.links {
+		width: 100%;
+	}
+
+	.title {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	li {
+		display: inline-block;
+		*display: inline;
+		padding: 0 $em10;
+	}
+
+	a {
+		color: black;
+	}
+
+	.icn {
+		font-size: (1em + $em6);
+		vertical-align: text-bottom;
+		padding: 0 $em4 0 0;
+		line-height: 0.9;
+		@media all and (min-width: $tablet-bp) {
+			font-size: (1em + $em10);
+		}
+	}
+
+	.label {
+		font-size: (1em);
+		font-weight: bold;
+		padding: 1em 0;
+		/*text-transform: capitalize;*/
+		@media all and (min-width: $tablet-bp) {
+			font-size: (1em + $em4);
+		}
+	}
+
+}

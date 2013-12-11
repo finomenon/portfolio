@@ -1,0 +1,49 @@
+.header {
+	background: url('/images/banner/lrg/bg.jpg') 0 0 repeat scroll;
+	background-position:center top;
+
+	.logo {
+		background: url('/images/logo/eric_logo.png') 0 0 no-repeat scroll;
+		background-color: $med-light-gray;
+		width: (7em + $em2);
+		height: (7em + $em3);
+		margin: 0 0 0 $em9;
+	}
+
+	ul {
+		padding: 0 0 0 1em;
+		text-align: left;
+		a {
+			line-height: (2em + $em11);
+		}
+	}
+
+	.icn {
+		padding: 0 $em4 0 0;
+	}
+
+	.icn-contact {
+		font-size: 2em;
+		vertical-align: middle;
+	}
+
+	.label {
+		display: none;
+		@media all and (min-width: $tablet-bp) {
+			display: inline;
+		}
+	}
+}
+
+.home-header {
+	height: (7em + $em8);
+	padding: (1em + $em6) 0 2em;
+}
+
+.project-header {
+	padding: $em10 0;
+	.back-icn {
+		font-size: (1em + $em4);
+		vertical-align: text-bottom;
+	}
+}

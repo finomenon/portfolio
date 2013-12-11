@@ -1,0 +1,8 @@
+@mixin set-transparency(val) {
+	zoom: 1;
+	-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=' + (val * 100) + ')';
+	filter: alpha(opacity=(val * 100));
+	-moz-opacity: val;
+	-khtml-opacity: val;
+	opacity: val;
+}

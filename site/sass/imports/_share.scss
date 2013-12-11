@@ -1,0 +1,61 @@
+.facebook {
+	color: $fb-blue;
+}
+.twitter {
+	color: $twitter-blue;
+}
+.google-plus {
+	color: $gp-red;
+}
+.pinterest {
+	color: $pinterest-red;
+}
+.email {
+	color: $med-dark-gray;
+}
+.contact-us, .newsletter {
+	color: $dark-gray;
+}
+
+@media all and (min-width: $mobile-bp) and (max-width: $tablet-bp) {
+	.newsletter, .newsletter-rule {
+		display: none;
+	}
+}
+
+.share {
+	a {
+		font-size: (1em + $em2);
+		@media all and (min-width: $tablet-bp) {
+			font-size: (1em + $em8);
+		}
+	}
+	.pd-share-label {
+		font-size: $em10;
+		display: inline-block;
+		vertical-align: middle;
+
+		@media all and (min-width: $tablet-bp) {
+			font-size: $em11;
+		}
+	}
+
+	.pd-social-btns {
+		display: inline-block;
+		vertical-align: middle;
+
+		span {
+			font-size: 1.0em;
+			padding: 0.25em 0.25em;
+			display: inline-block;
+		}
+	}
+
+	@media all and (device-aspect-ratio: 3/4) and (orientation: landscape) {
+		.pd-social-btns {
+			span {
+				font-size: 0.9em;
+			}
+		}
+	}
+}

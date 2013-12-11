@@ -1,0 +1,42 @@
+/* Colors */
+$light-gray: #ebebeb;
+$med-light-gray: #cdcdcd;
+$med-gray: #999;
+$med-dark-gray: #828282;
+$dark-gray: #626262;
+
+/* EM CONVERSIOINS */
+/* keep things pixel clean */
+$em1: 0.0625em;
+$em2: 0.125em;
+$em3: 0.1875em;
+$em4: 0.25em;
+$em5: 0.3125em;
+$em6: 0.375em;
+$em7: 0.4375em;
+$em8: 0.5em;
+$em9: 0.5625em;
+$em10: 0.625em;
+$em11: 0.6875em;
+$em12: 0.75em;
+$em13: 0.8125em;
+$em14: 0.875em;
+$em15: 0.9375em;
+
+/* UI */
+$bs-btm-h: 0;
+$bs-btm-v: 4em;
+$bs-btm-blur: 3em;
+$bs-btm-spread: -5em;
+$bs-btm-color: rgba(0, 0, 0, 1);
+
+/* Breakpoints */
+$mobile-bp: 20em; /*20em; /* 320px based on 16px default */
+$tablet-bp: 32em; /*30em; /* 480px based on 16px default */
+$desktop-bp: 50em; /*48em; /* 768px (iPad) based on 16px default */
+
+/* Layout Specs */
+$margin-num: 0.012;
+$margin: percentage($margin-num);
+$max-w: 67em + $em8;
+$max-grid-w: $max-w + ($margin-num * $max-w);

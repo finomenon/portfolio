@@ -1,0 +1,30 @@
+.project-details {
+	position: relative;
+	height: auto;
+	margin: $em12 0 0 0;
+
+	@media all and (min-width: $tablet-bp) {
+		margin: 1em 0 0 0;
+	}
+	@media all and (min-width: $desktop-bp) {
+		margin: (1em + $em6) 0 0 0;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		border-radius:$em12;
+	}
+
+	.desc {
+		font-size: $em14;
+		text-align: left;
+		@media all and (min-width: $tablet-bp) {
+			font-size: 1em;
+		}
+	}
+
+	.project-img {
+		padding: $em10 0;
+	}
+}

@@ -1,0 +1,29 @@
+{
+    "ProjectName": "Shuffl.es",
+    "Links": [{
+        "Label": "Remixer Demo (Flash)",
+        "Href": "http://innerpartysystem.shuffl.es/dontstop"
+    },{
+        "Label": "Webby Award 2009",
+        "Href": "http://winners.webbyawards.com/2009/online-film-video/performance-craft-categories/best-use-of-interactive-video/innerpartysystem-shuffles-dont-stop"
+    },{
+        "Label": "Memory Game (Flash)",
+        "Href": "http://lionsgate.shuffl.es/goodluckchuck"
+    }],
+    "ProjectDetails": [{
+        "Image": "/images/projects/fs/lrg/shuffles1.jpg",
+        "Description": "Shuffl.es is a content and data driven Flash front-end suite with features revolving around keyboard input and video playback. The flagship application, the video remixer, lets users press keys to trigger video clips musically and then record and share their creations. The skin of each application is highly customizable, allowing it to be rebranded for multiple clients and campaigns."
+    },{
+        "Image": "/images/projects/fs/lrg/shuffles2.jpg",
+        "Description": ""
+    },{
+        "Image": "/images/projects/fs/lrg/shuffles.jpg",
+        "Description": "<br/>Video clip piano game and video/viral marketing for the the Coke Creatures European TV campaign. Each number key triggers a musical note belched from one of the beloved puppet creatures."
+    },{
+        "Image": "/images/projects/fs/lrg/shuffles3.jpg",
+        "Description": "<br/>Video clip memory game branded to promote the Lionsgate, Good Luck Chuck film."
+    },{
+        "Image": "/images/projects/fs/lrg/shuffles4.jpg",
+        "Description": ""
+    }]
+}
