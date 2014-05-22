@@ -1,0 +1,119 @@
+/* line 6, ../sass/styles.scss */
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/styles.scss */
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 18, ../sass/styles.scss */
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+/* line 26, ../sass/styles.scss */
+.main {
+  min-height: 100%;
+}
+
+/* line 30, ../sass/styles.scss */
+.stars {
+  background-image: url("../images/glowing_stars.gif");
+  background-repeat: repeat-x;
+  background-position: center top;
+  background-size: 15em 5em;
+  display: block;
+  width: 100%;
+  height: 100%;
+  height: 5.5em;
+}
+
+/* line 41, ../sass/styles.scss */
+.night-sky {
+  background: #000033;
+  background: -moz-linear-gradient(top, #000033 0%, #000033 25%, #add0ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000033), color-stop(20%, #000033), color-stop(100%, #add0ff));
+  background: -webkit-linear-gradient(top, #000033 0%, #000033 20%, #add0ff 100%);
+  background: -o-linear-gradient(top, #000033 0%, #000033 20%, #add0ff 100%);
+  background: -ms-linear-gradient(top, #000033 0%, #000033 20%, #add0ff 100%);
+  background: linear-gradient(to bottom, #000033 0%, #000033 20%, #add0ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000033', endColorstr='#add0ff',GradientType=0 );
+}
+
+/* line 52, ../sass/styles.scss */
+.snow {
+  background-image: url("../images/snow_footer.png");
+  background-repeat: repeat-x;
+  background-position: center bottom;
+  background-size: 35em 7.5em;
+  position: relative;
+  margin-top: -8.5em;
+  width: 100%;
+  height: 8.5em;
+  clear: both;
+}
+
+/* line 65, ../sass/styles.scss */
+.envelope {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 8.5em;
+  text-align: center;
+}
+/* line 73, ../sass/styles.scss */
+.envelope .card {
+  display: inline-block;
+  *display: inline;
+  max-width: 32.25em;
+  height: 100%;
+  background: white;
+  text-align: center;
+  z-index: 9999;
+  border: 0.75em solid white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+@media all and (min-width: 480px) {
+  /* line 73, ../sass/styles.scss */
+  .envelope .card {
+    border: 1em solid white;
+  }
+}
+/* line 94, ../sass/styles.scss */
+.envelope .card span {
+  display: block;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: italic;
+  color: #dd0000;
+  text-shadow: 1px 1px 0px #00bb00;
+  padding: 0 0 0.5em 0;
+  font-size: 1em;
+}
+@media all and (min-width: 480px) {
+  /* line 94, ../sass/styles.scss */
+  .envelope .card span {
+    font-size: 1.25em;
+  }
+}
+/* line 108, ../sass/styles.scss */
+.envelope .card img {
+  max-width: 32.25em;
+  width: 100%;
+  height: auto;
+}
