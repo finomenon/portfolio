@@ -1,29 +1,13 @@
 {
-    "ProjectName": "H&M Runway",
-    "Links": [{
-        "Label": "Live Site",
-        "Href": "http://runway.hm.com/"
-    }, {
-        "Label": "Press Release",
-        "Href": "http://about.hm.com/en/news/newsroom/news.html/en_us/store400opening.html"
-    }],
+    "ProjectName": "Tiffany Paris Store Kiosk",
     "ProjectDetails": [{
-        "Image": "/images/projects/fs/lrg/hm_runway0.jpg",
-        "Description": "This is a responsive website built to let customers search, view and share videos of themselves and friends that were captured during an in-store retail experience. My role on this project was lead front-end developer."
+        "Image": "/images/projects/fs/lrg/tiffany_paris_kiosk2.jpg",
+        "Description": "This kiosk is essentially an interactive, touch-screen map to help customers find products in Tiffany's brand new Paris location. It was built using Site Kiosk with IE11, Angular.js and CSS3 animations. It includes six different language translations. My role for the project was Front-end Lead and developer."
     },{
-        "Image": "/images/projects/fs/lrg/hm_runway1.jpg",
+        "Image": "/images/projects/fs/lrg/tiffany_paris_kiosk0.jpg",
         "Description": ""
     },{
-        "Image": "/images/projects/fs/lrg/hm_runway2.jpg",
-        "Description": ""
-    },{
-        "Image": "/images/projects/fs/lrg/hm_runway3.jpg",
-        "Description": ""
-    },{
-        "Image": "/images/projects/fs/lrg/hm_runway4.jpg",
-        "Description": ""
-    },{
-        "Image": "/images/projects/fs/lrg/hm_runway5.jpg",
+        "Image": "/images/projects/fs/lrg/tiffany_paris_kiosk1.jpg",
         "Description": ""
     }]
 }

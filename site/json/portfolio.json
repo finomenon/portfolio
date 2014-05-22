@@ -24,13 +24,13 @@
         "PageID": "tiffany_paris_kiosk",
         "Thumb": "/images/projects/tn/lrg/tiffany_paris_kiosk.jpg"
     },{
-        "Name": "Old Converse.com",
-        "PageID": "old_converse",
-        "Thumb": "/images/projects/tn/lrg/old_converse.jpg"
-    },{
         "Name": "Shuffl.es",
         "PageID": "shuffles",
         "Thumb": "/images/projects/tn/lrg/shuffles.jpg"
+    },{
+        "Name": "Old Converse.com",
+        "PageID": "old_converse",
+        "Thumb": "/images/projects/tn/lrg/old_converse.jpg"
     },{
         "Name": "Plugged In",
         "PageID": "plugged_in",
@@ -39,14 +39,6 @@
         "Name": "Prototype",
         "PageID": "prototype",
         "Thumb": "/images/projects/tn/lrg/prototype.jpg"
-    },{
-        "Name": "BlogHer",
-        "PageID": "blogher",
-        "Thumb": "/images/projects/tn/lrg/blogher.jpg"
-    },{
-        "Name": "Big Mapple",
-        "PageID": "big_mapple",
-        "Thumb": "/images/projects/tn/lrg/big_mapple.jpg"
     },{
         "Name": "Teaching House",
         "PageID": "teaching_house",

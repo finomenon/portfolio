@@ -1,29 +1,20 @@
 {
-    "ProjectName": "H&M Runway",
+    "ProjectName": "HunterDouglas.com Redesign",
     "Links": [{
         "Label": "Live Site",
-        "Href": "http://runway.hm.com/"
-    }, {
-        "Label": "Press Release",
-        "Href": "http://about.hm.com/en/news/newsroom/news.html/en_us/store400opening.html"
+        "Href": "http://hunterdouglas.com"
     }],
     "ProjectDetails": [{
-        "Image": "/images/projects/fs/lrg/hm_runway0.jpg",
-        "Description": "This is a responsive website built to let customers search, view and share videos of themselves and friends that were captured during an in-store retail experience. My role on this project was lead front-end developer."
+        "Image": "/images/projects/fs/lrg/hd_redesign0.jpg",
+        "Description": "A responsive redesign of HunterDouglas.com. It was build with Angular and require.js as the main framework. My role on the project was as a front-end developer who came in towards the end to assist in meeting the launch deadline. I worked on various peices of the site, like social sharing, the Innovations page and various bug fixes."
     },{
-        "Image": "/images/projects/fs/lrg/hm_runway1.jpg",
+        "Image": "/images/projects/fs/lrg/hd_redesign1.jpg",
         "Description": ""
     },{
-        "Image": "/images/projects/fs/lrg/hm_runway2.jpg",
-        "Description": ""
+        "Image": "/images/projects/fs/lrg/hd_redesign2.jpg",
+        "Description": "This is a version of the Innovations page that I worked on."
     },{
-        "Image": "/images/projects/fs/lrg/hm_runway3.jpg",
-        "Description": ""
-    },{
-        "Image": "/images/projects/fs/lrg/hm_runway4.jpg",
-        "Description": ""
-    },{
-        "Image": "/images/projects/fs/lrg/hm_runway5.jpg",
+        "Image": "/images/projects/fs/lrg/hd_redesign3.jpg",
         "Description": ""
     }]
 }
