@@ -6,7 +6,7 @@
     }],
     "ProjectDetails": [{
         "Image": "/images/projects/fs/lrg/kidtropolis1.jpg",
-        "Description": "Buy Low, Sell High is a children's game aimed at teaching kids the basics of how the stock market works. I was the lead Flash developer for this game which is now on permenent installation at the Children's Museum of Houston as part of the Kidtropolis exhibit. The software uses Socket Server technology to connect to a live data stream from a simulated market."
+        "Description": "Buy Low, Sell High is a children's game aimed at teaching kids the basics of how the stock market works. I was contracted as a Flash developer to help build this game which is now on permenent installation at the Children's Museum of Houston as part of the Kidtropolis exhibit. The software uses Socket Server technology to connect to a live data stream from a simulated market."
     },{
         "Image": "/images/projects/fs/lrg/kidtropolis2.jpg",
         "Description": ""

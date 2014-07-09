@@ -8,14 +8,6 @@
         "PageID": "builder",
         "Thumb": "/images/projects/tn/lrg/builder.jpg"
     },{
-        "Name": "Nike Team Sports",
-        "PageID": "team_sports",
-        "Thumb": "/images/projects/tn/lrg/team_sports.jpg"
-    },{
-        "Name": "H&M Runway",
-        "PageID": "hm_runway",
-        "Thumb": "/images/projects/tn/lrg/hm_runway.jpg"
-    },{
         "Name": "Hunter Douglas Redesign",
         "PageID": "hd_redesign",
         "Thumb": "/images/projects/tn/lrg/hd_redesign.jpg"
@@ -23,6 +15,14 @@
         "Name": "Tiffany Paris Store Kiosk",
         "PageID": "tiffany_paris_kiosk",
         "Thumb": "/images/projects/tn/lrg/tiffany_paris_kiosk.jpg"
+    },{
+        "Name": "H&M Runway",
+        "PageID": "hm_runway",
+        "Thumb": "/images/projects/tn/lrg/hm_runway.jpg"
+    },{
+        "Name": "Nike Team Sports",
+        "PageID": "team_sports",
+        "Thumb": "/images/projects/tn/lrg/team_sports.jpg"
     },{
         "Name": "Shuffl.es",
         "PageID": "shuffles",
