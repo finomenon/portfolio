@@ -8,13 +8,13 @@
         "PageID": "builder",
         "Thumb": "/images/projects/tn/lrg/builder.jpg"
     },{
-        "Name": "Hunter Douglas Redesign",
-        "PageID": "hd_redesign",
-        "Thumb": "/images/projects/tn/lrg/hd_redesign.jpg"
-    },{
         "Name": "Tiffany Paris Store Kiosk",
         "PageID": "tiffany_paris_kiosk",
         "Thumb": "/images/projects/tn/lrg/tiffany_paris_kiosk.jpg"
+    },{
+        "Name": "Hunter Douglas Redesign",
+        "PageID": "hd_redesign",
+        "Thumb": "/images/projects/tn/lrg/hd_redesign.jpg"
     },{
         "Name": "H&M Runway",
         "PageID": "hm_runway",

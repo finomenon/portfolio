@@ -1,12 +1,12 @@
 {
     "ProjectName": "Converse Customizer",
     "Links": [{
-        "Label": "Live Site",
-        "Href": "http://www.converse.com/dyo/design-your-own-chuck-taylor/135528C.html"
+        "Label": "Live Site (View on mobile device for HTML version)",
+        "Href": "http://www.converse.com/dyo/design-your-own-chuck-taylor/146638C.html"
     }],
     "ProjectDetails": [{
         "Image": "/images/projects/fs/lrg/converse_html_builder1.jpg",
-        "Description": "Customize a Converse sneaker (view on a touch device to see the HTML version). For this project I was the Tech Team Lead for both the HTML and Flash versions. This code was forked from the Nike shoe customizer, and adapted with specific features and visuals to accomodate the needs of the Converse brand."
+        "Description": "Customize a Converse sneaker. This is an adaptive site that delivers a Flash experience for desktop, and HTML for tablet and mobile devices. For this project I was the Tech Team Lead for both the Flash HTML versions. A portion fo the font-end code was forked from the Nike shoe customizer, and adapted with specific features and visuals to accomodate the needs of the Converse brand."
     },{
         "Image": "/images/projects/fs/lrg/converse_html_builder2.jpg",
         "Description": ""

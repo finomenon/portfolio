@@ -1,8 +1,8 @@
 {
     "ProjectName": "Prototype",
     "Links": [{
-        "Label": "Live Demo",
-        "Href": "http://finomenon.com/converse/demos/mod_con/"
+        "Label": "Live Demo (Flash)",
+        "Href": "http://finomenon.com/stuff/converse/demos/mod_con/"
     }],
     "ProjectDetails": [{
         "Image": "/images/projects/fs/lrg/prototype1.jpg",
